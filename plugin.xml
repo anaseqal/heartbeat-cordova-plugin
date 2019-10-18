@@ -1,21 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="com.litekey.cordova.plugins.heartbeat"
-        version="0.2.2">
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-heartbeat" version="0.2.3">
 
   <name>HeartBeat</name>
   <description>Cordova Heart Beat Monitor</description>
+  <license>Apache 2.0</license>
   <keywords>cordova,heart,beat,rate,bpm</keywords>
   <repo>https://github.com/Litekey/heartbeat-cordova-plugin</repo>
 
-  <engines>
-    <engine name="cordova" version=">=3.4.0"/>
-  </engines>
-
   <asset src="www/heartbeat.js" target="js/heartbeat.js"/>
-
   <js-module src="www/heartbeat.js" name="heartbeat">
-    <clobbers target="heartbeat" />
+      <clobbers target="heartbeat" />
   </js-module>
 
   <platform name="android">
