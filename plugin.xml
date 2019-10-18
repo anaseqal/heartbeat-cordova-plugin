@@ -6,7 +6,6 @@
   <description>Cordova Heart Beat Monitor</description>
   <license>Apache 2.0</license>
   <keywords>cordova,heart,beat,rate,bpm</keywords>
-  <repo>https://github.com/Litekey/heartbeat-cordova-plugin</repo>
 
   <asset src="www/heartbeat.js" target="js/heartbeat.js"/>
   <js-module src="www/heartbeat.js" name="heartbeat">
